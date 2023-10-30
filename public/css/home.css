@@ -1,0 +1,51 @@
+
+
+/* sección banner */
+.main__banner {
+    display: none;
+    width: 100%;
+}
+
+/* sección productos */
+
+.photo-container {
+    position: relative;
+}
+
+.photo-container .photo {
+    width: 100%;
+}
+
+.photo-container .especial {
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+.zoom {
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 8px 0;
+    display: block;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    left: 50%;
+}
+.home__main__products .product h3 {
+    margin: 20px 0;
+}
+
+.home__main__products .product p {
+    color: var(--colorGris);
+}
+
+.home__main__products .product .more {
+    display: inline-block;
+    background-color: var(--colorGrisOscuro);
+    padding: 5px;
+    margin: 20px 0;
+}
