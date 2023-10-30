@@ -8,6 +8,10 @@
 
 /* sección productos */
 
+.home__main__products .product {
+    width: 100%;
+}
+
 .photo-container {
     position: relative;
 }
@@ -48,4 +52,23 @@
     background-color: var(--colorGrisOscuro);
     padding: 5px;
     margin: 20px 0;
+}
+
+
+@media (min-width: 768px) {
+    /* sección banner */
+    .main__banner {
+        display: block;
+    }
+
+    /* sección productos */
+    .home__main__products {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .home__main__products .product {
+        width: 49%;
+    }
 }
