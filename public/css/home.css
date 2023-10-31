@@ -66,9 +66,16 @@
         flex-wrap: wrap;
         display: flex;
         justify-content: space-between;
+        margin-top: 20px;
     }
 
     .home__main__products .product {
         width: 49%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .home__main__products .product {
+        width: 33%;
     }
 }
